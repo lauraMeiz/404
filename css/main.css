@@ -46,11 +46,9 @@ main > img {
   width: 800px;
 }
 div {
-  width: 800px;
   font-family: cursive;
   padding-top: 10px;
   margin-left: 200px;
-  text-align: left;
   margin-bottom: 20px;
 }
 h1 {
@@ -60,7 +58,7 @@ h1 {
 }
 p {
   font-size: 20px;
-  line-height: 10px;
+  line-height: 30px;
   color: #4d5457;
   text-align: left;
 }
