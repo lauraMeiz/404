@@ -7,7 +7,6 @@ main {
   margin-left: calc(50% - 400px);
   padding-bottom: 150px;
   float: left;
-  display: inline-block;
 }
 
 header {
@@ -28,8 +27,8 @@ nav {
   display: inline-block;
   float: left;
   margin-top: 10px;
-  margin-left: 5px;
-  width: 120px;
+  margin-left: 40px;
+  width: 100px;
   padding-bottom: 20px;
 }
 a {
@@ -37,7 +36,7 @@ a {
   float: left;
   margin-top: 20px;
   margin-left: 10px;
-
+  font-size: 10px;
   text-decoration: none;
   font-family: cursive;
   color: #4d5457;
@@ -79,7 +78,6 @@ footer {
   margin-left: calc(50% - 400px);
   float: left;
   display: inline-block;
-  padding: 15px;
 }
 .right {
   background-color: #15b49e;
@@ -88,24 +86,29 @@ footer {
   font-size: 8px;
   width: 200px;
   display: inline-block;
-  margin-left: 0;
+  margin-left: 40px;
+  margin-top: 25px;
   color: white;
+}
+.socialMedia {
+  width: 250px;
+  display: inline-block;
+  float: right;
 }
 
-.linkedin {
-  display: inline-block;
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-color: white;
   color: white;
-  margin-left: 500px;
-  float: left;
+  border-radius: 90px;
+  border-style: solid;
 }
-.linkedin:hover {
-  color: blue;
-}
-.facebook {
-  display: inline-block;
-  color: white;
-  float: left;
-}
-.facebook:hover {
+.fa:hover {
+  border-color: blue;
   color: blue;
 }
