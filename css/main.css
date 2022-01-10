@@ -23,7 +23,7 @@ nav {
   float: right;
   background-color: #f8f8f7;
 }
-.logo {
+header > img {
   display: inline-block;
   float: left;
   margin-top: 10px;
@@ -31,7 +31,7 @@ nav {
   width: 100px;
   padding-bottom: 20px;
 }
-a {
+header a {
   display: inline-block;
   float: left;
   margin-top: 20px;
@@ -42,7 +42,7 @@ a {
   color: #4d5457;
 }
 
-img {
+main > img {
   width: 800px;
 }
 div {
