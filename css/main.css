@@ -1,8 +1,8 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #f1f1f1;
 }
 main {
-  background-color: red;
+  background-color: #f2f2f2;
   width: 800px;
   margin-left: calc(50% - 400px);
   padding-bottom: 150px;
@@ -30,7 +30,6 @@ nav {
   margin-top: 10px;
   margin-left: 5px;
   width: 120px;
-
   padding-bottom: 20px;
 }
 a {
@@ -48,11 +47,12 @@ img {
   width: 800px;
 }
 div {
-  width: 600px;
+  width: 800px;
   font-family: cursive;
   padding-top: 10px;
-  text-align: left;
   margin-left: 200px;
+  text-align: left;
+  margin-bottom: 20px;
 }
 h1 {
   font-size: 25px;
@@ -61,14 +61,16 @@ h1 {
 }
 p {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 10px;
   color: #4d5457;
+  text-align: left;
 }
 
 .home {
   font-size: 20px;
   color: #80cec1;
-  line-height: 10px;
+
+  display: inline-block;
 }
 
 footer {
@@ -77,29 +79,33 @@ footer {
   margin-left: calc(50% - 400px);
   float: left;
   display: inline-block;
+  padding: 15px;
 }
 .right {
   background-color: #15b49e;
   float: left;
   font-family: cursive;
-  font-size: 10px;
+  font-size: 8px;
   width: 200px;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 0;
   color: white;
 }
 
-.facebook {
+.linkedin {
+  display: inline-block;
   color: white;
-  float: right;
-  margin-right: 100px;
+  margin-left: 500px;
+  float: left;
 }
-.facebook:hover {
+.linkedin:hover {
   color: blue;
 }
-.Linkedin {
+.facebook {
+  display: inline-block;
   color: white;
+  float: left;
 }
-.Linkedin:hover {
+.facebook:hover {
   color: blue;
 }
