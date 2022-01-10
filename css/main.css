@@ -3,19 +3,19 @@ body {
 }
 main {
   background-color: #f2f2f2;
-  width: 1900px;
+  width: 800px;
   float: left;
   display: inline-block;
 }
 
 header {
   display: inline-block;
-  width: 1900px;
+  width: 800px;
   float: left;
   background-color: #f8f8f7;
 }
 nav {
-  width: 700px;
+  width: 800px;
   margin-left: 1000px;
   background-color: #f8f8f7;
   margin-right: 30px;
