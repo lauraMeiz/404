@@ -1,29 +1,23 @@
 body {
+  margin: 0;
   background-color: #f1f1f1;
 }
-main {
-  background-color: #f2f2f2;
-  width: 800px;
-  margin-left: calc(50% - 400px);
-  padding-bottom: 150px;
-  float: left;
-}
-
-header {
+.main-header {
   display: inline-block;
   width: 800px;
   margin-left: calc(50% - 400px);
 
   background-color: #f8f8f7;
 }
-nav {
+
+.header-nav {
   width: 400px;
   margin-left: 100px;
   display: inline-block;
   float: right;
   background-color: #f8f8f7;
 }
-header > img {
+.logo {
   display: inline-block;
   float: left;
   margin-top: 10px;
@@ -31,7 +25,7 @@ header > img {
   width: 100px;
   padding-bottom: 20px;
 }
-header a {
+.menu-link {
   display: inline-block;
   float: left;
   margin-top: 20px;
@@ -41,36 +35,43 @@ header a {
   font-family: cursive;
   color: #4d5457;
 }
+.content {
+  background-color: #f2f2f2;
+  width: 800px;
+  margin-left: calc(50% - 400px);
+  padding-bottom: 150px;
+  float: left;
+}
 
-main > img {
+.main-img {
   width: 800px;
 }
-div {
+.text {
   font-family: cursive;
   padding-top: 10px;
   margin-left: 200px;
   margin-bottom: 20px;
 }
-h1 {
+.title {
   font-size: 25px;
   line-height: 20px;
   color: #4d5457;
 }
-p {
+.description {
   font-size: 20px;
   line-height: 30px;
   color: #4d5457;
   text-align: left;
 }
 
-.home {
+.question {
   font-size: 20px;
   color: #80cec1;
 
   display: inline-block;
 }
 
-footer {
+.main-footer {
   background-color: #15b49e;
   width: 800px;
   margin-left: calc(50% - 400px);
@@ -104,7 +105,7 @@ footer {
   border-color: white;
   color: white;
   border-radius: 90px;
-  border-style: solid;
+  border: 2px solid white;
 }
 .fa:hover {
   border-color: blue;
